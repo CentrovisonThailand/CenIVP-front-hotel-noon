@@ -50,7 +50,7 @@ export default function PannellumViewer() {
 
       viewerRef.current = window.pannellum.viewer('panorama-container', {
         type: 'equirectangular',
-        panorama: '/image/outside.jpg',
+        panorama: '/image/selectedPanorama.jpg',
         autoLoad: true,
         autoRotate: -2,
         orientationOnDeviceMotion: true, // เอียงเครื่องหมุนตาม (สำหรับมือถือ/iPad)
