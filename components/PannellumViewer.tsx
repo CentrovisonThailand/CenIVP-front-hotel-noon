@@ -45,8 +45,8 @@ export default function PannellumViewer() {
       
       // เลือกใช้รูปตามขนาดหน้าจอ (สะกดชื่อไฟล์ให้ตรงกับใน GitHub เป๊ะๆ)
       const selectedPanorama = isMobileOrTablet 
-        ? '/image/front hotel [ noon ]-4096x2048.jpg' // รูป 4K (สำหรับมือถือ/iPad)
-        : '/image/front hotel [ noon ].jpg';          // รูป 16K (สำหรับคอมพิวเตอร์)
+        ? '/image/front-hotel-noon-4096x2048.jpg' // รูป 4K (สำหรับมือถือ/iPad)
+        : '/image/front-hotel-noon.jpg';          // รูป 16K (สำหรับคอมพิวเตอร์)
 
       viewerRef.current = window.pannellum.viewer('panorama-container', {
         type: 'equirectangular',
